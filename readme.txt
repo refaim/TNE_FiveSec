@@ -1,3 +1,4 @@
+# Addon copied from https://legacy-wow.com/vanilla-addons/tne-fivesec/
 
 Introduction:
 FiveSec monitors your mana regeneration. It displays a bar — similar to the casting bar that shows when you cast a spell or use your hearthstone — when your mana regeneration is disabled. It is meant as an aid for casters to use their mana better.
