@@ -1,14 +1,17 @@
-# Addon copied from https://legacy-wow.com/vanilla-addons/tne-fivesec/
+### Addon copied from https://legacy-wow.com/vanilla-addons/tne-fivesec/
 
-Introduction:
-FiveSec monitors your mana regeneration. It displays a bar — similar to the casting bar that shows when you cast a spell or use your hearthstone — when your mana regeneration is disabled. It is meant as an aid for casters to use their mana better.
+# Introduction
+FiveSec monitors your mana regeneration. It displays a bar â€” similar to the casting bar that shows when you cast a spell or use your hearthstone â€” when your mana regeneration is disabled. It is meant as an aid for casters to use their mana better.
 
-Each spell you cast disables your mana regeneration for 5 seconds. If you are about to cast two spells - one with casting time and one instant — it is better to begin with the slow spell. Regeneration is active until the slow spell is completed, and the instant spell will only add a split second to the five you already got.
+Each spell you cast disables your mana regeneration for 5 seconds. If you are about to cast two spells - one with casting time and one instant â€” it is better to begin with the slow spell. Regeneration is active until the slow spell is completed, and the instant spell will only add a split second to the five you already got.
 
-Configuration:
+# Screenshots
+![image](https://user-images.githubusercontent.com/55476/201145942-c1957ca2-9b25-4bc7-8f88-214ad400e8ca.png)
+
+# Configuration
 No initial configuration is needed to use FiveSec.
 
-Commands (use /fivesec or /fs):
+# Commands (use /fivesec or /fs)
 /fivesec on|off: Enable or disable FiveSec. 
 /fivesec mode standard|reverse: Switch between increasing/decreasing bar
 /fivesec reset: Restore position above the casting bar. 
@@ -18,17 +21,16 @@ Commands (use /fivesec or /fs):
 /fivesec scale 0.5-2.0: Set bar scale (default scale is 0.8).
 /fivesec about: Show addon information.
 
-Localization:
+# Localization
 FiveSec is currently only in English. Open localization.lua for further details if you want to contribute with translations.
 
-Homepage:
+# Homepage
 http://www.curse-gaming.com/mod.php?addid=3319
 
-Contact:
+# Contact
 You can send questions and comments to silentaddons@gmail.com
 
-
-Changelog:
+# Changelog
 Version 2.1.2 (11000)
  - Fix: An (experimental) fix for channeled spells.
  - Fix: Alpha values will be saved between session as intended.
